@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #f7f7f7;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(45, 127, 250)
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  margin-left: 10px;
+  margin-top: 10px;
+  color:  rgb(45, 127, 250);
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0.1rem 0.5rem rgb(26, 25, 25);
+}
+
+button {
+  background-color: #f7f7f7;
+  margin-top: 10px;
+  text-align: center;
+  padding: 10px;
+  border: #f7f7f7;
+  border-radius: 10px;
+  box-shadow: 0 0.1rem 0.5rem rgb(26, 25, 25);
+}
+
+a {
+  color: rgb(45, 127, 250);
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  transition: 0.7s;
+}
+
+button:hover {
+  background-color: #f7f7f7;
+  border: white;
+  cursor: pointer;
+}
+
+.jogo {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.jogo button {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 50px;
+  background: #f7f7f7;
+  border-color: #f7f7f7;
+  color:rgb(45, 127, 250)
+}
+
+.controle {
+  text-align: center;
+  padding: 5px;
+}
+
+.controle button {
+  margin-left: 10px;
+}
