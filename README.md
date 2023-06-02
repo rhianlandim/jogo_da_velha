@@ -1,7 +1,5 @@
 # JOGO DA VELHA VIRTUAL
 
-![image](https://github.com/rhianlandim/jogo_da_velha/assets/108150838/78383b75-e00c-4e3b-b7a3-50bd093b2dbb)
-
 ## DESCRIÇÃO
 
 O comumente conhecido "Jogo da Velha" ganhou popularidade no século 19, na Inglaterra.
