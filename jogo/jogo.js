@@ -17,7 +17,6 @@ let trincas = [
 
 function inicia() {
   escolhido = [];
-
   jogadorAtual.innerHTML = `"${jogador}" COMEÇA! `;
 
   document.querySelectorAll(".jogo button").forEach((quadrado) => {
@@ -36,14 +35,14 @@ function marcar(quadrado) {
   escolhido[index] = jogador;
 
   setTimeout(() => {
-    check();
+    checar();
   }, [100]);
 
   jogador = jogador === "X" ? "O" : "X";
   jogadorAtual.innerHTML = `JOGADOR DA VEZ: ${jogador}`;
 }
 
-function check() {
+function checar() {
   let ultimaJogada = jogador === "X" ? "O" : "X";
 
   const quadrados = escolhido
